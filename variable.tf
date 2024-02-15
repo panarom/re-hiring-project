@@ -12,3 +12,7 @@ variable "aws_access_key" {
 variable "aws_secret_key" {
     type = string
 }
+variable "deployment_environment" {
+    type = string
+    default = "development"
+}
